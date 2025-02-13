@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;
+    color: #fff;
+
+}
+
+/*navbar*/
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 70px;
+    margin-left: 10px;
+}
+
+#navbar-nav {
+    float:left;
+}
+
+
+
+
+/*Order*/
+
+.order {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+
+.order h1 {
+    font-size: 2.5rem;
+   padding: 10px;
+}
+
+.order input {
+    style:none;
+    height:30px;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-left: 4rem;
+    
+}
+
+.ordercoffee {
+    padding: 5px 20px;
+    
+    
+}
+
+#base {
+   margin-left: auto;
+   margin-right:auto;
+   
+   width: 500px;
+   
+   
+}
+
+#base button {
+    margin: 0 1rem;
+    padding: 20px;
+    background: none;
+    border: solid;
+
+}
+
+
+
+#add {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 600px;
+    height: 200px;
+    border:solid;
+    
+}
+
+#add button{
+    margin: .5rem;
+    padding: 5px;
+    background:none;
+}
+
+.addtocartbutton {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 150px;
+}
+ 
+#cartButton {
+    margin: .5rem 1rem;
+    padding: 5px;
+    
+}
+
+#notes {
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+}
+
+#notes textarea {
+    box-sizing:border-box;
+    width: 600px;
+    padding: 0 0 100px 0;
+    margin-top: 20px;
+    
+}
+
+.specialtydrink .title {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+   
+}
+
+.specialtydrink .title h1 {
+    font-weight: 470;
+}
+
+#drinks {
+    max-width: 800px;
+    margin:auto;
+}
+
+#drinks .drink {
+    display:flex;
+    margin-top: 10px;
+}
+
+#drinks h2 {
+
+    font-weight: 500;
+}
+
+#drinks p {
+    margin:10px;
+}
+
+#drinks button {
+    padding:10px;
+    height:40px;
+    margin-left: auto;
+    margin-right:30px;
+
+}
+
+.add {
+    margin:20px auto;
+    width:150px;
+    
+}
+
+.add button {
+    padding: 10px;
+}
+
+.cart {
+    width:600px;
+
+    margin:20px auto;
+}
+
+#addToCart {
+    width:600px;
+    height:100px;
+    border:none;
+}
+
+.cart ul {
+    background:lightgray;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.cart li {
+    font-weight: 600;
+    font-size:small;
+}
+
+#total {
+    margin:auto;
+    margin-top:30px;
+    display: flex;
+    width:300px;
+    
+}
+
+#total input {
+    
+    margin-left: 20px;
+    border:solid;
+}
+
+#submit {
+    margin:auto;
+    height:50px;
+    width:100px; 
+}
+
+#submit button {
+    height:50px;
+    width:100px;  
+    margin-top:15px;  
+}
+
+.pay p {
+    width:150px;
+    margin: auto;
+    margin-top: 30px;   
+}
+
+
+footer {
+    background:lightgrey;
+    padding:20px;
+    margin-top:30px;
+}
+
+footer .content {
+    width:500px;
+    margin:40px auto;
+}

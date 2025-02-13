@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <link rel = "stylesheet" href = "main.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Your Expense Tracker</h1>
+            <form id = "expense_input">
+                <input
+                    type = "text"
+                    id = "reason-input"
+                    placeholder = "What was purchased?"
+                />
+                <input
+                    type = "date"
+                    id = "date_input"
+                />
+                <input
+                    type = "text"
+                    id = "cost_input"
+                    placeholder = "$"
+                />
+                <input
+                    type = "submit"
+                    id = "expense_submit"
+                    value = "Add Expense"
+                />
+            </form>
+        </header>
+        <main>
+            <section class = "expense_list">
+                <h2>Your Expenses</h2>
+                    <div id = "expenses">
+                        <!----
+                        <div class = "expense">
+                            <div class = "content">
+                                <input
+                                    type = "text"
+                                    class = "text"
+                                    value = "Example Reason"
+                                    readonly
+                                />
+                                <input
+                                    type = "date"
+                                    class = "date"
+                                    value = 03/18/2023
+                                    readonly
+                                />
+                                <input  
+                                    type = "text"
+                                    class = "cost"
+                                    value = "$13"
+                                    readonly
+                                />
+                            </div>
+                            <div class = "actions">
+                                <button class = "edit">Edit</button>
+                                <button class = "delete">Delete</button>
+                            </div>
+                        </div> 
+                                -->
+                    </div>
+            </section>
+
+        </main>
+    </body>
+    <script src="expenses.js"></script>
+</html>

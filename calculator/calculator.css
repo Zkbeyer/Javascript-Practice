@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+#calculator {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 15%;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    outline:auto;
+    flex: 1 1 0%;
+}
+
+#calculator .display {
+        outline: auto;
+        text-align: right;
+        font-size: 30px;
+        font-weight: 600;
+}
+
+#answer {
+    margin: 20px 30px;
+}
+
+#calculator .row {
+    padding: .5rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calculator .row button {
+    margin: 0 1rem;
+    font-size: 24px;
+    margin-top:.5rem;
+}
